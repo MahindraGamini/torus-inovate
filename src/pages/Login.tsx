@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Eye, EyeOff, User, Lock, Check } from 'lucide-react';
-
+import { useNavigate } from "react-router-dom";
 const LoginPage: React.FC = () => {
   const validUser = {
     email: "user@gmail.com",
     password: "password123",
   };
+
+  const navigate=useNavigate();
 
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
@@ -22,7 +24,7 @@ const LoginPage: React.FC = () => {
       localStorage.setItem('user',validUser.email);
       
       setTimeout(() => {
-        window.location.href = '/dashboard';
+       navigate('/dashboard');
       }, 1000);
     } else {
       setError("Invalid email or password");
