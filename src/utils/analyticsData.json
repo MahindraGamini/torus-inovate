@@ -1,0 +1,56 @@
+{
+  "totalUsers": 5000,
+  "activeUsers": 3750,
+  "deletedUsers": 250,
+  "userRegistrationTrend": [
+    {
+      "month": "Jan 2024",
+      "registrations": 450,
+      "date": "2024-01-15 ",
+      "region": "Maharashtra"
+    },
+    {
+      "month": "Feb 2024", 
+      "registrations": 500,
+      "date": "2024-02-15 ",
+      "region": "Karnataka"
+    },
+    {
+      "month": "Mar 2024",
+      "registrations": 550,
+      "date": "2024-03-15 ", 
+      "region": "Tamil Nadu"
+    },
+    {
+      "month": "Apr 2024",
+      "registrations": 600,
+      "date": "2024-04-15 ",
+      "region": "Delhi"
+    },
+    {
+      "month": "May 2024",
+      "registrations": 680,
+      "date": "2024-05-15 ",
+      "region": "Gujarat"
+    },
+    {
+      "month": "June 2024",
+      "registrations": 280,
+      "date": "2024-06-15 ",
+      "region": "Gujarat"
+    },
+    {
+      "month": "July 2024",
+      "registrations": 500,
+      "date": "2024-07-15 ",
+      "region": "Karnataka"
+    }
+  ],
+  "usersByRegion": [
+    { "region": "Maharashtra", "count": 1200 },
+    { "region": "Karnataka", "count": 900 },
+    { "region": "Tamil Nadu", "count": 750 },
+    { "region": "Delhi", "count": 650 },
+    { "region": "Gujarat", "count": 500 }
+  ]
+}
